@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/update"
+        android:title="检查更新"/>
+    <item
+        android:id="@+id/aboutAuthor"
+        android:title="关于作者"/>
+</menu>
