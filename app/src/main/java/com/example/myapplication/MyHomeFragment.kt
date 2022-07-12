@@ -85,14 +85,12 @@ private lateinit var binding: FragmentMyHomeBinding
                             // Toast.makeText(this, "你已取消更新", Toast.LENGTH_SHORT).show()
                         }
                         builder.show()
+                    }  else {
+                        Toast.makeText(requireContext(), "已是最新版本", Toast.LENGTH_SHORT).show()
                     }
                 }
             }
-            else {
 
-                Toast.makeText(requireContext(), "已是最新版本", Toast.LENGTH_SHORT).show()
-
-            }
         })
         //——————————————————————————————————————————————————
 
