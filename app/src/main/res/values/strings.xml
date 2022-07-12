@@ -10,4 +10,8 @@
     <string name="dialog_ok">确定</string>
     <string name="dialog_cannel">取消</string>
     <string name="DialogMessage">提取码为:1234</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="CheckUpdate">检查更新</string>
+    <string name="ConnectAuthor">联系作者</string>
 </resources>
