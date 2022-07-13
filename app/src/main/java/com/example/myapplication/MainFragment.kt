@@ -17,7 +17,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
-import com.example.myapplication.databinding.FragmentMainBinding
+import com.example.QRCode.R
+import com.example.QRCode.databinding.FragmentMainBinding
+
 import com.google.zxing.*
 import com.google.zxing.common.HybridBinarizer
 import com.google.zxing.qrcode.QRCodeReader

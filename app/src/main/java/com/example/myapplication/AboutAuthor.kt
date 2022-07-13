@@ -7,7 +7,8 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.ActionBar
-import com.example.myapplication.databinding.ActivityAboutAuthorBinding
+import com.example.QRCode.databinding.ActivityAboutAuthorBinding
+
 const val key = "ih3iF7F6oq_0fzkxkhjVEkmeoTTPpAlz"
 class AboutAuthor : AppCompatActivity() {
     private lateinit var binding:ActivityAboutAuthorBinding

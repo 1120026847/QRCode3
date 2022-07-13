@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import com.example.QRCode.R
 
 class FeedBackActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

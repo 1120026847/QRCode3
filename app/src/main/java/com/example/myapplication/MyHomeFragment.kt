@@ -12,11 +12,13 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
-import com.example.myapplication.databinding.FragmentMyHomeBinding
+import com.example.QRCode.R
+import com.example.QRCode.databinding.FragmentMyHomeBinding
+
 import retrofit2.Response
 
 class MyHomeFragment : Fragment() {
-private lateinit var binding: FragmentMyHomeBinding
+private lateinit var binding:FragmentMyHomeBinding
     private lateinit var updateTools: UpdateTools
     private lateinit var retService: WordService
     override fun onCreate(savedInstanceState: Bundle?) {
